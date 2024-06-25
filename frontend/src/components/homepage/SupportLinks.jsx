@@ -5,21 +5,21 @@ const supportLinks = [
         name: 'Sales',
         href: '#',
         description:
-            'Varius facilisi mauris sed sit. Non sed et duis dui leo, vulputate id malesuada non. Cras aliquet purus dui laoreet diam sed lacus, fames.',
+            'Our sales team is a dynamic group of professionals dedicated to driving growth and delivering exceptional service.',
         icon: PhoneIcon,
     },
     {
         name: 'Technical Support',
         href: '#',
         description:
-            'Varius facilisi mauris sed sit. Non sed et duis dui leo, vulputate id malesuada non. Cras aliquet purus dui laoreet diam sed lacus, fames.',
+            'Our technical support team is a highly skilled and responsive group committed to providing top-notch assistance. ',
         icon: LifebuoyIcon,
     },
     {
         name: 'Media Inquiries',
         href: '#',
         description:
-            'Varius facilisi mauris sed sit. Non sed et duis dui leo, vulputate id malesuada non. Cras aliquet purus dui laoreet diam sed lacus, fames.',
+            'We handle media inquiries with a focus on providing timely and accurate information.',
         icon: NewspaperIcon,
     },
 ]
