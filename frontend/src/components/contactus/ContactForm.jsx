@@ -11,8 +11,7 @@ export default function ContactForm() {
           <div className="mx-auto max-w-lg">
             <h2 className="text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl">Get in touch</h2>
             <p className="mt-3 text-lg leading-6 text-gray-500">
-              Nullam risus blandit ac aliquam justo ipsum. Quam mauris volutpat massa dictumst amet. Sapien tortor lacus
-              arcu.
+            We'd love to hear from you! Whether you have questions, feedback, or just want to say hello, feel free to reach out. Your thoughts and inquiries are important to us, and we're here to help.
             </p>
             <dl className="mt-8 text-base text-gray-500">
               <div>
@@ -33,17 +32,10 @@ export default function ContactForm() {
                 <dt className="sr-only">Email</dt>
                 <dd className="flex">
                   <EnvelopeIcon className="h-6 w-6 flex-shrink-0 text-gray-400" aria-hidden="true" />
-                  <span className="ml-3">support@example.com</span>
+                  <span className="ml-3">support@sigainfotech.com</span>
                 </dd>
               </div>
             </dl>
-            <p className="mt-6 text-base text-gray-500">
-              Looking for careers?{' '}
-              <a href="#" className="font-medium text-gray-700 underline">
-                View all job openings
-              </a>
-              .
-            </p>
           </div>
         </div>
         <div className="bg-white py-16 px-4 sm:px-6 lg:col-span-3 lg:py-24 lg:px-8 xl:pl-12">
@@ -58,7 +50,7 @@ export default function ContactForm() {
                   name="full-name"
                   id="full-name"
                   autoComplete="name"
-                  className="block w-full rounded-md border-gray-300 py-3 px-4 placeholder-gray-500 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
+                  className="block w-full rounded-md border border-gray-300 py-3 px-4 placeholder-gray-500 shadow-sm focus:border-[#9bc9ef] focus:ring-[#9bc9ef] outline-0"
                   placeholder="Full name"
                 />
               </div>
@@ -71,7 +63,7 @@ export default function ContactForm() {
                   name="email"
                   type="email"
                   autoComplete="email"
-                  className="block w-full rounded-md border-gray-300 py-3 px-4 placeholder-gray-500 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
+                  className="block w-full outline-0 rounded-md border border-gray-300 py-3 px-4 placeholder-gray-500 shadow-sm focus:border-[#9bc9ef] focus:ring-[#9bc9ef]"
                   placeholder="Email"
                 />
               </div>
@@ -84,7 +76,7 @@ export default function ContactForm() {
                   name="phone"
                   id="phone"
                   autoComplete="tel"
-                  className="block w-full rounded-md border-gray-300 py-3 px-4 placeholder-gray-500 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
+                  className="block w-full outline-0 rounded-md border border-gray-300 py-3 px-4 placeholder-gray-500 shadow-sm focus:border-[#9bc9ef] focus:ring-[#9bc9ef]"
                   placeholder="Phone"
                 />
               </div>
@@ -96,7 +88,7 @@ export default function ContactForm() {
                   id="message"
                   name="message"
                   rows={4}
-                  className="block w-full rounded-md border-gray-300 py-3 px-4 placeholder-gray-500 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
+                  className="block w-full outline-0 rounded-md border border-gray-300 py-3 px-4 placeholder-gray-500 shadow-sm focus:border-[#9bc9ef] focus:ring-[#9bc9ef]"
                   placeholder="Message"
                   defaultValue={''}
                 />
@@ -104,7 +96,7 @@ export default function ContactForm() {
               <div>
                 <button
                   type="submit"
-                  className="inline-flex justify-center rounded-md border border-transparent bg-indigo-600 py-3 px-6 text-base font-medium text-white shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+                  className="inline-flex justify-center rounded-md border border-transparent bg-[#9bc9ef] py-3 px-6 text-base font-medium text-white shadow-sm hover:bg-[#74a2c8] focus:outline-none focus:ring-2 focus:ring-[#9bc9ef] focus:ring-offset-2"
                 >
                   Submit
                 </button>
