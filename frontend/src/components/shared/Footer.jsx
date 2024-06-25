@@ -40,7 +40,7 @@ export const Footer = () => {
                     </div>
                 </div>
                 <div className="mt-12 border-t border-gray-200 pt-8">
-                    <p className="text-base text-gray-400 xl:text-center">&copy; 2024 Your Company, Inc. All rights
+                    <p className="text-base text-gray-400 xl:text-center">&copy; 2024 SigaInfoTech. All rights
                         reserved.</p>
                 </div>
             </div>

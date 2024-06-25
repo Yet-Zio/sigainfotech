@@ -30,7 +30,7 @@ export const SupportLinks = () => {
                 <div key={link.name} className="flex flex-col rounded-2xl bg-white shadow-xl">
                     <div className="relative flex-1 px-6 pt-16 pb-8 md:px-8">
                         <div
-                            className="absolute top-0 inline-block -translate-y-1/2 transform rounded-xl bg-indigo-600 p-5 shadow-lg">
+                            className="absolute top-0 inline-block -translate-y-1/2 transform rounded-xl bg-[#9bc9ef] p-5 shadow-lg">
                             <link.icon className="h-6 w-6 text-white" aria-hidden="true"/>
                         </div>
                         <h3 className="text-xl font-medium text-gray-900">{link.name}</h3>
@@ -38,7 +38,7 @@ export const SupportLinks = () => {
                     </div>
                     <div className="rounded-bl-2xl rounded-br-2xl bg-gray-50 p-6 md:px-8">
                         <a href={link.href}
-                           className="text-base font-medium text-indigo-700 hover:text-indigo-600">
+                           className="text-base font-medium text-[#9bc9ef] hover:text-[#9bc9ef]/75">
                             Contact us<span aria-hidden="true"> &rarr;</span>
                         </a>
                     </div>
