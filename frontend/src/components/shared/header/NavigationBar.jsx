@@ -1,9 +1,8 @@
 import {Popover, Transition} from "@headlessui/react";
 import {
-    ArrowPathIcon,
+    CloudIcon,ArrowPathIcon,
     Bars3Icon, BookmarkSquareIcon, CalendarIcon,
-    ChartBarIcon,
-    CursorArrowRaysIcon, LifebuoyIcon, PhoneIcon, PlayIcon,
+    ChartBarIcon, LifebuoyIcon, PhoneIcon, PlayIcon,
     ShieldCheckIcon, Squares2X2Icon,
     XMarkIcon
 } from "@heroicons/react/24/outline/index.js";
@@ -23,16 +22,10 @@ const callsToAction = [
 
 const features = [
     {
-        name: 'Analytics',
+        name: 'Cloud Services',
         href: '#',
         description: 'Get a better understanding of where your traffic is coming from.',
-        icon: ChartBarIcon,
-    },
-    {
-        name: 'Engagement',
-        href: '#',
-        description: 'Speak directly to your customers in a more meaningful way.',
-        icon: CursorArrowRaysIcon,
+        icon: CloudIcon,
     },
     {name: 'Security', href: '#', description: "Your customers' data will be safe and secure.", icon: ShieldCheckIcon},
     {
@@ -173,13 +166,6 @@ export const NavigationBar = () => {
                             )}
                         </Popover>
 
-                        <a href="#" className="text-base font-medium text-gray-500 hover:text-gray-900">
-                            Pricing
-                        </a>
-                        <a href="#" className="text-base font-medium text-gray-500 hover:text-gray-900">
-                            Docs
-                        </a>
-
                         <Popover className="relative">
                             {({open}) => (
                                 <>
@@ -259,6 +245,13 @@ export const NavigationBar = () => {
                                 </>
                             )}
                         </Popover>
+                        <Link to={"/"} className="text-base font-medium text-gray-500 hover:text-gray-900">
+                            About
+                        </Link>
+                        <Link to={"/"} className="text-base font-medium text-gray-500 hover:text-gray-900">
+                            Contact
+                        </Link>
+
                     </Popover.Group>
                     <div className="hidden items-center justify-end md:flex md:flex-1 lg:w-0">
                         <a href="#"
@@ -293,11 +286,14 @@ export const NavigationBar = () => {
                         <div className="px-5 pt-5 pb-6">
                             <div className="flex items-center justify-between">
                                 <div>
-                                    <img
-                                        className="h-8 w-auto"
-                                        src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
-                                        alt="Your Company"
-                                    />
+                                    <Link to={"/"}>
+                                        <img
+                                            className="h-8 w-auto"
+                                            src={sigaInfotech}
+                                            alt="Your Company"
+                                        />
+                                    </Link>
+
                                 </div>
                                 <div className="-mr-2">
                                     <Popover.Button
