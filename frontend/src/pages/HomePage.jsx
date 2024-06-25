@@ -19,9 +19,9 @@ export const HomePage = () => {
             <ServiceTitle/>
             <Automation/>
             <CloudServices/>
+            <ApiIntegration/>
             <Products/>
             <HServices/>
-            <ApiIntegration/>
             <AboutUs/>
             <Footer/>
         </div>

@@ -1,51 +1,51 @@
 import {CheckIcon} from '@heroicons/react/24/outline'
 
 const features = [
-
-
     {
-        name: 'Invite team members',
-        description: 'Tempor tellus in aliquet eu et sit nulla tellus. Suspendisse est, molestie blandit quis ac. Lacus.',
+        name: 'Container Services',
+        description: 'Optimize your application deployment with efficient container management and orchestration.',
     },
     {
-        name: 'Notifications',
-        description: 'Ornare donec rhoncus vitae nisl velit, neque, mauris dictum duis. Nibh urna non parturient.',
+        name: 'Networking Services',
+        description: 'Enhance your network infrastructure with reliable and scalable networking solutions.',
     },
     {
-        name: 'List view',
-        description: 'Etiam cras augue ornare pretium sit malesuada morbi orci, venenatis. Dictum lacus.',
+        name: 'Security and Compliance Services',
+        description: 'Ensure robust security measures and regulatory compliance to protect your data and operations.',
     },
     {
-        name: 'Boards',
-        description: 'Interdum quam pulvinar turpis tortor, egestas quis diam amet, natoque. Mauris sagittis.',
+        name: 'Database as a Service (DBaaS)',
+        description: 'Effortlessly manage and scale your databases in the cloud for optimal performance and reliability.',
     },
     {
-        name: 'Keyboard shortcuts',
-        description: 'Ullamcorper in ipsum ac feugiat. Senectus at aliquam vulputate mollis nec. In at risus odio.',
+        name: 'Big Data Analytics',
+        description: 'Gain valuable insights from your data with advanced analytics capabilities and scalable data processing.',
     },
     {
-        name: 'Reporting',
-        description: 'Magna a vel sagittis aliquam eu amet. Et lorem auctor quam nunc odio. Sed bibendum.',
+        name: 'Data Storage and Backup Services',
+        description: 'Securely store and protect your data while ensuring seamless backup and recovery processes.',
     },
     {
-        name: 'Calendars',
-        description: 'Sed mi, dapibus turpis orci posuere integer. A porta viverra posuere adipiscing turpis.',
+        name: 'Software as a Service (SaaS)',
+        description: 'Access powerful software applications over the internet to streamline your business operations.',
     },
     {
-        name: 'Mobile app',
-        description: 'Quisque sapien nunc nisl eros. Facilisis sagittis maecenas id dignissim tristique proin sed.',
+        name: 'Platform as a Service (PaaS)',
+        description: 'Accelerate your application development and deployment with a comprehensive platform.',
     },
-]
+];
 
 export const CloudServices = () => {
     return (
         <div className="bg-white">
             <div className="mx-auto max-w-7xl py-16 px-4 sm:px-6 lg:py-24 lg:px-8">
                 <div className="mx-auto max-w-3xl text-center">
-                    <h2 className="text-3xl font-bold tracking-tight text-gray-900">All-in-one platform</h2>
+                    <h2 className="text-3xl font-bold tracking-tight text-gray-900">Cloud Services</h2>
                     <p className="mt-4 text-lg text-gray-500">
-                        Ac euismod vel sit maecenas id pellentesque eu sed consectetur. Malesuada adipiscing sagittis
-                        vel nulla nec.
+                        Our cloud services encompass a range of offerings including Infrastructure as a Service (IaaS)
+                        for flexible computing resources, Platform as a Service (PaaS) for streamlined application
+                        development, and Software as a Service (SaaS) delivering accessible business applications,
+                        ensuring tailored solutions to meet diverse client needs.
                     </p>
                 </div>
                 <dl className="mt-12 space-y-10 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 sm:space-y-0 lg:grid-cols-4 lg:gap-x-8">
