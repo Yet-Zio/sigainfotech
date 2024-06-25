@@ -4,6 +4,7 @@ import {Support} from "./footer/Support.jsx";
 import {Socials} from "./footer/Socials.jsx";
 import {Company} from "./footer/Company.jsx";
 import {Legal} from "./footer/Legal.jsx";
+import {Link} from "react-router-dom";
 
 // Fixing issue
 export const Footer = () => {
@@ -12,14 +13,16 @@ export const Footer = () => {
             <h2 id="footer-heading" className="sr-only">
                 Footer
             </h2>
-            <div className="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
+            <div className="mx-auto max-w-screen-2xl py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
                 <div className="xl:grid xl:grid-cols-3 xl:gap-8">
                     <div className="space-y-8 xl:col-span-1">
-                        <img
-                            className="h-10"
-                            src={sigaInfotech}
-                            alt="Company name"
-                        />
+                        <Link to={"/"}>
+                            <img
+                                className="h-10"
+                                src={sigaInfotech}
+                                alt="Company name"
+                            />
+                        </Link>
                         <p className="text-base text-gray-500">
                             Making the world a better place through constructing elegant hierarchies.
                         </p>

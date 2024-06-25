@@ -1,8 +1,7 @@
 const support = [
     {name: 'Pricing', href: '#'},
     {name: 'Documentation', href: '#'},
-    {name: 'Guides', href: '#'},
-    {name: 'API Status', href: '#'},
+    {name: 'Guides', href: '#'}
 ];
 
 export const Support = () => {

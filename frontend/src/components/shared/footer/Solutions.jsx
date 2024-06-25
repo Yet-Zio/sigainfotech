@@ -1,8 +1,8 @@
 const solutions = [
-    {name: 'Marketing', href: '#'},
-    {name: 'Analytics', href: '#'},
-    {name: 'Commerce', href: '#'},
-    {name: 'Insights', href: '#'},
+    {name: 'Automation', href: '#'},
+    {name: 'Advanced Security', href: '#'},
+    {name: 'Cloud Services', href: '#'},
+    {name: 'API Integration', href: '#'}
 ];
 export const Solutions = () => {
     return (

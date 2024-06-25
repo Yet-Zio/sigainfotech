@@ -10,6 +10,7 @@ import {
 import {ChevronDownIcon} from "@heroicons/react/20/solid/index.js";
 import {Fragment} from "react";
 import sigaInfotech from "../../../assets/sigabrand_transparent.png"
+import {Link} from "react-router-dom";
 
 function classNames(...classes) {
     return classes.filter(Boolean).join(' ')
@@ -82,14 +83,14 @@ export const NavigationBar = () => {
             <div className="mx-auto max-w-7xl px-4 sm:px-6">
                 <div className="flex items-center justify-between py-6 md:justify-start md:space-x-10">
                     <div className="flex justify-start lg:w-0 lg:flex-1">
-                        <a href="#">
+                        <Link to={"/"}>
                             <span className="sr-only">SigaInfoTech</span>
                             <img
                                 className="h-8 w-auto sm:h-10"
                                 src={sigaInfotech}
                                 alt=""
                             />
-                        </a>
+                        </Link>
                     </div>
                     <div className="-my-2 -mr-2 md:hidden">
                         <Popover.Button
@@ -266,7 +267,7 @@ export const NavigationBar = () => {
                         </a>
                         <a
                             href="#"
-                            className="ml-8 inline-flex items-center justify-center whitespace-nowrap rounded-md border border-transparent bg-[#9bc9ef] px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-[#4f81a9]"
+                            className="ml-8 inline-flex items-center justify-center whitespace-nowrap rounded-md border border-transparent bg-[#9bc9ef] px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-[#4f81a9] duration-150 transition-colors"
                         >
                             Sign up
                         </a>
