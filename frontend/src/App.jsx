@@ -1,9 +1,19 @@
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route
+} from "react-router-dom"
+import ServicesProvided from "./pages/ServicesProvided"
+
 function App() {
 
   return (
-    <h1 className="text-3xl font-bold underline text-blue-300">
-      Test!
-    </h1>
+    <Router>
+      <Routes>
+        <Route path="/" element={<div>Test</div>}/>
+        <Route path="/services" element={<ServicesProvided/>}/>
+      </Routes>
+    </Router>
   )
 }
 
