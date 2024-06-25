@@ -93,7 +93,7 @@ export const NavigationBar = () => {
                     </div>
                     <div className="-my-2 -mr-2 md:hidden">
                         <Popover.Button
-                            className="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+                            className="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-[#9bc9ef]/50">
                             <span className="sr-only">Open menu</span>
                             <Bars3Icon className="h-6 w-6" aria-hidden="true"/>
                         </Popover.Button>
@@ -105,7 +105,7 @@ export const NavigationBar = () => {
                                     <Popover.Button
                                         className={classNames(
                                             open ? 'text-gray-900' : 'text-gray-500',
-                                            'group inline-flex items-center rounded-md bg-white text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2'
+                                            'group inline-flex items-center rounded-md bg-white text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-[#9bc9ef]/50 focus:ring-offset-2'
                                         )}
                                     >
                                         <span>Solutions</span>
@@ -128,7 +128,7 @@ export const NavigationBar = () => {
                                         leaveTo="opacity-0 translate-y-1"
                                     >
                                         <Popover.Panel
-                                            className="absolute z-10 -ml-4 mt-3 w-screen max-w-md transform px-2 sm:px-0 lg:left-1/2 lg:ml-0 lg:-translate-x-1/2">
+                                            className="absolute z-30 -ml-4 mt-3 w-screen max-w-md transform px-2 sm:px-0 lg:left-1/2 lg:ml-0 lg:-translate-x-1/2">
                                             <div
                                                 className="overflow-hidden rounded-lg shadow-lg ring-1 ring-black ring-opacity-5">
                                                 <div
@@ -140,7 +140,7 @@ export const NavigationBar = () => {
                                                             className="-m-3 flex items-start rounded-lg p-3 hover:bg-gray-50"
                                                         >
                                                             <item.icon
-                                                                className="h-6 w-6 flex-shrink-0 text-indigo-600"
+                                                                className="h-6 w-6 flex-shrink-0 text-[#9bc9ef]"
                                                                 aria-hidden="true"/>
                                                             <div className="ml-4">
                                                                 <p className="text-base font-medium text-gray-900">{item.name}</p>
@@ -185,7 +185,7 @@ export const NavigationBar = () => {
                                     <Popover.Button
                                         className={classNames(
                                             open ? 'text-gray-900' : 'text-gray-500',
-                                            'group inline-flex items-center rounded-md bg-white text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2'
+                                            'group inline-flex items-center rounded-md bg-white text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-[#9bc9ef]/50 focus:ring-offset-2'
                                         )}
                                     >
                                         <span>More</span>
@@ -208,7 +208,7 @@ export const NavigationBar = () => {
                                         leaveTo="opacity-0 translate-y-1"
                                     >
                                         <Popover.Panel
-                                            className="absolute left-1/2 z-10 mt-3 w-screen max-w-md -translate-x-1/2 transform px-2 sm:px-0">
+                                            className="absolute left-1/2 z-30 mt-3 w-screen max-w-md -translate-x-1/2 transform px-2 sm:px-0">
                                             <div
                                                 className="overflow-hidden rounded-lg shadow-lg ring-1 ring-black ring-opacity-5">
                                                 <div
@@ -220,7 +220,7 @@ export const NavigationBar = () => {
                                                             className="-m-3 flex items-start rounded-lg p-3 hover:bg-gray-50"
                                                         >
                                                             <item.icon
-                                                                className="h-6 w-6 flex-shrink-0 text-indigo-600"
+                                                                className="h-6 w-6 flex-shrink-0 text-[#9bc9ef]"
                                                                 aria-hidden="true"/>
                                                             <div className="ml-4">
                                                                 <p className="text-base font-medium text-gray-900">{item.name}</p>
@@ -246,7 +246,7 @@ export const NavigationBar = () => {
                                                     </div>
                                                     <div className="mt-5 text-sm">
                                                         <a href="#"
-                                                           className="font-medium text-indigo-600 hover:text-indigo-500">
+                                                           className="font-medium text-[#9bc9ef] hover:text-[#9bc9ef]/75">
                                                             View all posts
                                                             <span aria-hidden="true"> &rarr;</span>
                                                         </a>
@@ -266,7 +266,7 @@ export const NavigationBar = () => {
                         </a>
                         <a
                             href="#"
-                            className="ml-8 inline-flex items-center justify-center whitespace-nowrap rounded-md border border-transparent bg-indigo-600 px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-indigo-700"
+                            className="ml-8 inline-flex items-center justify-center whitespace-nowrap rounded-md border border-transparent bg-[#9bc9ef] px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-[#4f81a9]"
                         >
                             Sign up
                         </a>
@@ -285,7 +285,7 @@ export const NavigationBar = () => {
             >
                 <Popover.Panel
                     focus
-                    className="absolute inset-x-0 top-0 z-10 origin-top-right transform p-2 transition md:hidden"
+                    className="absolute inset-x-0 top-0 z-30 origin-top-right transform p-2 transition md:hidden"
                 >
                     <div
                         className="divide-y-2 divide-gray-50 rounded-lg bg-white shadow-lg ring-1 ring-black ring-opacity-5">
@@ -300,7 +300,7 @@ export const NavigationBar = () => {
                                 </div>
                                 <div className="-mr-2">
                                     <Popover.Button
-                                        className="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+                                        className="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-[#9bc9ef]/50">
                                         <span className="sr-only">Close menu</span>
                                         <XMarkIcon className="h-6 w-6" aria-hidden="true"/>
                                     </Popover.Button>
@@ -314,7 +314,7 @@ export const NavigationBar = () => {
                                             href={item.href}
                                             className="-m-3 flex items-center rounded-md p-3 hover:bg-gray-50"
                                         >
-                                            <item.icon className="h-6 w-6 flex-shrink-0 text-indigo-600"
+                                            <item.icon className="h-6 w-6 flex-shrink-0 text-[#9bc9ef]"
                                                        aria-hidden="true"/>
                                             <span
                                                 className="ml-3 text-base font-medium text-gray-900">{item.name}</span>
@@ -345,13 +345,13 @@ export const NavigationBar = () => {
                             <div>
                                 <a
                                     href="#"
-                                    className="flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-600 px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-indigo-700"
+                                    className="flex w-full items-center justify-center rounded-md border border-transparent bg-[#9bc9ef] px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-[#4f81a9]"
                                 >
                                     Sign up
                                 </a>
                                 <p className="mt-6 text-center text-base font-medium text-gray-500">
                                     Existing customer?
-                                    <a href="#" className="text-indigo-600 hover:text-indigo-500">
+                                    <a href="#" className="text-[#9bc9ef] hover:text-[#9bc9ef]/75">
                                         Sign in
                                     </a>
                                 </p>
