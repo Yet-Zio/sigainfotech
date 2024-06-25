@@ -22,12 +22,12 @@ export const HeroSection = () => {
                                 </Link>
                             </div>
                             <div className="mt-3 rounded-md shadow sm:mt-0 sm:ml-3">
-                                <a
-                                    href="#"
+                                <Link
+                                    to={"/"}
                                     className="flex w-full items-center justify-center rounded-md border border-transparent bg-white px-8 py-3 text-base font-medium text-[#4f81a9] hover:bg-gray-50 md:py-4 md:px-10 md:text-lg"
                                 >
                                     Live demo
-                                </a>
+                                </Link>
                             </div>
                         </div>
                     </div>

@@ -2,7 +2,7 @@ import {Popover, Transition} from "@headlessui/react";
 import {
     CloudIcon,ArrowPathIcon,
     Bars3Icon, BookmarkSquareIcon, CalendarIcon,
-    ChartBarIcon, LifebuoyIcon, PhoneIcon, PlayIcon,
+    LifebuoyIcon, PhoneIcon, PlayIcon,
     ShieldCheckIcon, Squares2X2Icon,
     XMarkIcon
 } from "@heroicons/react/24/outline/index.js";
