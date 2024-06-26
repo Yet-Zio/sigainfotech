@@ -1,23 +1,24 @@
 import {LifebuoyIcon, NewspaperIcon, PhoneIcon} from "@heroicons/react/24/outline/index.js";
+import {Link} from "react-router-dom";
 
 const supportLinks = [
     {
         name: 'Sales',
-        href: '#',
+        href: '/contact',
         description:
             'Our sales team is a dynamic group of professionals dedicated to driving growth and delivering exceptional service.',
         icon: PhoneIcon,
     },
     {
         name: 'Technical Support',
-        href: '#',
+        href: '/contact',
         description:
             'Our technical support team is a highly skilled and responsive group committed to providing top-notch assistance. ',
         icon: LifebuoyIcon,
     },
     {
         name: 'Media Inquiries',
-        href: '#',
+        href: '/contact',
         description:
             'We handle media inquiries with a focus on providing timely and accurate information.',
         icon: NewspaperIcon,
@@ -37,10 +38,10 @@ export const SupportLinks = () => {
                         <p className="mt-4 text-base text-gray-500">{link.description}</p>
                     </div>
                     <div className="rounded-bl-2xl rounded-br-2xl bg-gray-50 p-6 md:px-8">
-                        <a href={link.href}
+                        <Link to={link.href}
                            className="text-base font-medium text-[#9bc9ef] hover:text-[#9bc9ef]/75">
                             Contact us<span aria-hidden="true"> &rarr;</span>
-                        </a>
+                        </Link>
                     </div>
                 </div>
             ))}
