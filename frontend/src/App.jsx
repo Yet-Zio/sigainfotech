@@ -10,15 +10,15 @@ function App() {
         <Router>
             <Routes>
                 <Route path="/" element={<>
-                        <HomePage/>
-                        <SetTitle setTitle={"SigaInfoTech"} />
-                    </>}/>
+                    <SetTitle setTitle={"SigaInfoTech"}/>
+                    <HomePage/>
+                </>}/>
                 <Route path="/services" element={<>
-                    <SetTitle setTitle={"Service"} />
+                    <SetTitle setTitle={"Service"}/>
                     <ServicesProvided/>
                 </>}/>
                 <Route path="/contact" element={<>
-                    <SetTitle setTitle={"contact-us"} />
+                    <SetTitle setTitle={"contact-us"}/>
                     <ContactUs/>
                 </>}/>
             </Routes>

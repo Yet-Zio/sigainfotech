@@ -39,7 +39,7 @@ export const SupportLinks = () => {
                     </div>
                     <div className="rounded-bl-2xl rounded-br-2xl bg-gray-50 p-6 md:px-8">
                         <Link to={link.href}
-                           className="text-base font-medium text-[#9bc9ef] hover:text-[#9bc9ef]/75">
+                              className="text-base font-medium text-[#9bc9ef] hover:text-[#9bc9ef]/75">
                             Contact us<span aria-hidden="true"> &rarr;</span>
                         </Link>
                     </div>

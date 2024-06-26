@@ -1,9 +1,12 @@
 import {Popover, Transition} from "@headlessui/react";
 import {
-    CloudIcon,ArrowPathIcon,
-    Bars3Icon, BookmarkSquareIcon, CalendarIcon,
-    LifebuoyIcon, PhoneIcon, PlayIcon,
-    ShieldCheckIcon, Squares2X2Icon,
+    ArrowPathIcon,
+    Bars3Icon,
+    CloudIcon,
+    PhoneIcon,
+    PlayIcon,
+    ShieldCheckIcon,
+    Squares2X2Icon,
     XMarkIcon
 } from "@heroicons/react/24/outline/index.js";
 import {ChevronDownIcon} from "@heroicons/react/20/solid/index.js";

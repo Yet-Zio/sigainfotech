@@ -9,7 +9,8 @@ export const Stats = () => {
                         Operational Metrics
                     </h2>
                     <p className="mt-3 text-xl text-gray-500 sm:mt-4">
-                        Explore our operational metrics that showcase our commitment to excellence and client satisfaction.
+                        Explore our operational metrics that showcase our commitment to excellence and client
+                        satisfaction.
                     </p>
                 </div>
             </div>

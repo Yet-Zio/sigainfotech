@@ -26,7 +26,7 @@ export const Footer = () => {
                         <p className="text-base text-gray-500">
                             Making the world a better place through constructing elegant hierarchies.
                         </p>
-                       <Socials/>
+                        <Socials/>
                     </div>
                     <div className="mt-12 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
                         <div className="md:grid md:grid-cols-2 md:gap-8">
